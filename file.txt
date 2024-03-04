@@ -24,6 +24,9 @@ list.sort(*, key=None, reverse=False) Sort the items of the list in place (the a
 list.reverse()		Reverse the elements of the list in place.
 list.copy()		Return a shallow copy of the list. Equivalent to a[:].
 
+Tuple Methods
+count()	Returns the number of times a specified value occurs in a tuple
+index()	Searches the tuple for a specified value and returns the position of where it was found
 
 Python String Methods
 capitalize()	Converts the first character to upper case
